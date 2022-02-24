@@ -8,6 +8,7 @@ const { openBrowser, goto, closeBrowser } = require('taiko');
 	//await resizeWindow({width:600, height:800})
 
 	await goto("http://maps.google.com");;;;;
+    life is new;
 	//await overridePermissions('http://maps.google.com',['geolocation']);
         
     } catch (error) {
