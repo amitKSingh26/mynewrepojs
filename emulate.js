@@ -6,6 +6,7 @@ const { openBrowser, goto, closeBrowser } = require('taiko');
 	//await setViewPort({width:360, height:740})
 	//await emulateNetwork("Regular2G")
 	//await resizeWindow({width:600, height:800})
+
 	await goto("http://maps.google.com");;
 	//await overridePermissions('http://maps.google.com',['geolocation']);
         
@@ -15,4 +16,3 @@ const { openBrowser, goto, closeBrowser } = require('taiko');
         await closeBrowser();
     }
 })();
-8506801177
