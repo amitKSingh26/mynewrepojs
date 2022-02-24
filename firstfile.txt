@@ -1,2 +1,3 @@
 this is my first file
 second file added
+third file added
